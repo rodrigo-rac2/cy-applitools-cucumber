@@ -1,0 +1,4 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "baseUrl": "https://app.dev.goodpractice.cloud/#/dev1/login"
+}

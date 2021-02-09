@@ -1,0 +1,29 @@
+{
+  "name": "cy-nova-bp",
+  "version": "0.0.1",
+  "description": "Cypress Cucumber Applitools For Nova Beta",
+  "main": "cypress/plugins/index.js",
+  "dependencies": {
+    "cypress": "^6.4.0",
+    "cypress-cucumber-preprocessor": "^4.0.0"
+  },
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.18.7"
+  },
+  "scripts": {
+    "test": "npx cypress run --browser chrome --no-exit"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "keywords": [
+    "NOVA",
+    "cypress",
+    "cucumber",
+    "applitools",
+    "rodrigo",
+    "e2e"
+  ],
+  "author": "devsquad",
+  "license": "MIT"
+}
