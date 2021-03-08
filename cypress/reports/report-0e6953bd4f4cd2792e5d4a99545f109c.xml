@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-03-02T16:26:19" tests="0" file="cypress\integration\toolkit\Profile.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Profile" timestamp="2021-03-02T16:26:20" tests="1" time="0.0000" failures="1">
+    <testcase name="Profile My Profile Page" time="0.0000" classname="My Profile Page">
+      <failure message="Timed out retrying after 30000ms: Expected to find content: &apos;Personal Details&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 30000ms: Expected to find content: 'Personal Details' but never did.
+    at Function.assertPageLoaded (https://app.dev.goodpractice.cloud/__cypress/tests?p=cypress\integration\toolkit\Profile.feature:270:10)
+    at Context.eval (https://app.dev.goodpractice.cloud/__cypress/tests?p=cypress\integration\toolkit\Profile.feature:77:27)
+    at Context.resolveAndRunStepDefinition (https://app.dev.goodpractice.cloud/__cypress/tests?p=cypress\integration\toolkit\Profile.feature:11989:9)
+    at Context.eval (https://app.dev.goodpractice.cloud/__cypress/tests?p=cypress\integration\toolkit\Profile.feature:11330:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,4 +1,8 @@
 {
     "testFiles": "**/*.{feature,features}",
-    "baseUrl": "https://app.dev.goodpractice.cloud/#/dev1/login"
+    "baseUrl": "https://app.dev.goodpractice.cloud/#/dev1/login",
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "cypress/reports/report-[hash].xml"
+    }
 }

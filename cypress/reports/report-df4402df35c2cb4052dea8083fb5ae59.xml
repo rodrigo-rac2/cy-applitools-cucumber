@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-03-02T16:24:32" tests="0" file="cypress\integration\toolkit\Login.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Login Scenarios" timestamp="2021-03-02T16:24:33" tests="1" time="0.0000" failures="1">
+    <testcase name="Login Scenarios &quot;after all&quot; hook for &quot;Regular Login&quot;" time="0.0000" classname="&quot;after all&quot; hook for &quot;Regular Login&quot;">
+      <failure message="Eyes-Cypress detected diffs or errors during execution of visual tests:
+       [33mDiffs detected - 9 tests[39m
+         [33m⚠[39m [0mScenario: Login Page [1280x720][0m
+         [33m⚠[39m [0mScenario: Login Page [1280x720][0m
+         [33m⚠[39m [0mScenario: Login Page [800x600][0m
+         [33m⚠[39m [0mScenario: Login Page [1280x720][0m
+         [33m⚠[39m [0mScenario: Login Page [800x600][0m
+         [33m⚠[39m [0mScenario: Login Page [375x724][0m
+         [33m⚠[39m [0mScenario: Login Page [812x375][0m
+         [33m⚠[39m [0mScenario: Login Page [360x692][0m
+         [33m⚠[39m [0mScenario: Login Page [692x360][0m
+
+       See details at: https://eyes.applitools.com/app/batches/00000251787598503989/00000251787598503715?accountId=sAhlfiHj8UiZTLoKNwNLpQ~~
+
+Because this error occurred during a `after all` hook we are skipping all of the remaining tests." type="Error"><![CDATA[Error: Eyes-Cypress detected diffs or errors during execution of visual tests:
+       [33mDiffs detected - 9 tests[39m
+         [33m⚠[39m [0mScenario: Login Page [1280x720][0m
+         [33m⚠[39m [0mScenario: Login Page [1280x720][0m
+         [33m⚠[39m [0mScenario: Login Page [800x600][0m
+         [33m⚠[39m [0mScenario: Login Page [1280x720][0m
+         [33m⚠[39m [0mScenario: Login Page [800x600][0m
+         [33m⚠[39m [0mScenario: Login Page [375x724][0m
+         [33m⚠[39m [0mScenario: Login Page [812x375][0m
+         [33m⚠[39m [0mScenario: Login Page [360x692][0m
+         [33m⚠[39m [0mScenario: Login Page [692x360][0m
+
+       See details at: https://eyes.applitools.com/app/batches/00000251787598503989/00000251787598503715?accountId=sAhlfiHj8UiZTLoKNwNLpQ~~
+
+Because this error occurred during a `after all` hook we are skipping all of the remaining tests.
+    at eval (https://app.dev.goodpractice.cloud/__cypress/tests?p=cypress\support\index.js:457:17)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

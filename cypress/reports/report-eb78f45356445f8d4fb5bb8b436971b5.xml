@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-03-02T16:23:29" tests="0" file="cypress\integration\toolkit\Diagnostics.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Diagnostics Scenarios" timestamp="2021-03-02T16:23:29" tests="1" time="0.0000" failures="1">
+    <testcase name="Diagnostics Scenarios All systems ok - Good news" time="0.0000" classname="All systems ok - Good news">
+      <failure message="Timed out retrying after 30000ms: Expected to find content: &apos;Good News&apos; but never did." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 30000ms: Expected to find content: 'Good News' but never did.
+    at Function.assertStatusisOK (https://app.dev.goodpractice.cloud/__cypress/tests?p=cypress\integration\toolkit\Diagnostics.feature:151:10)
+    at Context.eval (https://app.dev.goodpractice.cloud/__cypress/tests?p=cypress\integration\toolkit\Diagnostics.feature:88:31)
+    at Context.resolveAndRunStepDefinition (https://app.dev.goodpractice.cloud/__cypress/tests?p=cypress\integration\toolkit\Diagnostics.feature:11993:9)
+    at Context.eval (https://app.dev.goodpractice.cloud/__cypress/tests?p=cypress\integration\toolkit\Diagnostics.feature:11334:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
